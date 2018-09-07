@@ -1,12 +1,12 @@
-#Prototypes Exercise
+# Prototypes Exercise
 
 Make the tests pass for the following tasks:
 
-##1 task
+## 1 task
 
 **Create a constructor function for a Person. Each person should have a firstName, lastName, favoriteColor, favoriteNumber and favoriteFoods (which should be an array).**
 
-##2 task
+## 2 task
 
 **Add a function on the Person.prototype called fullName that returns the firstName and lastName property of an object created by the Person constructor concatenated together.**
 
@@ -17,7 +17,7 @@ var p = new Person("Shana", "Malarkin", "Green", 38);
 p.toString(); // Shana Malarkin, Favorite Color: Green, Favorite Number: 38
 Add a property on the Person object called family which is an empty array.
 
-##3 task
+## 3 task
 
 **Add a function on the Person.prototype called addToFamily which adds an object constructed from the Person constructor to the family array. To make sure that the object you are adding is an object construced from the Person constructor - take a look at the instanceofoperator. Make sure that your family array does not include duplicates! This method should return the length of the family array.**
 
