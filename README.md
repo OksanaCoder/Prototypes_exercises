@@ -12,10 +12,10 @@ Make the tests pass for the following tasks:
 
 `var p = new Person("Shana", "Malarkin", "Green", 38);` \
 `p.fullName();` // Shana Malarkin \
-**Overwrite the toString method from the Object prototype by creating a toString method for Person. The toString method should return a string in the following format:** \
+Overwrite the toString method from the Object prototype by creating a toString method for Person. The toString method should return a string in the following format: \
 `var p = new Person("Shana", "Malarkin", "Green", 38); ` \
 `p.toString();` // Shana Malarkin, Favorite Color: Green, Favorite Number: 38  \
-**Add a property on the Person object called family which is an empty array.**
+Add a property on the Person object called family which is an empty array.
 
 ## 3 task
 
